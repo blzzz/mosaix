@@ -1,0 +1,86 @@
+/* Base Application Styles */
+body {
+  color: #111;
+  background: #EEE;
+}
+
+.index {
+  width:100%;
+  height:100%;
+  position: absolute;
+  display:block;
+  /*display:flex;*/
+  /*flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
+}
+
+table {
+  width:100%;
+  max-width: 400px;
+  margin: 10px auto;
+  /*display:block;*/
+}
+
+td {
+  /*border: 1px solid black;
+  width:40px;
+  height:40px;*/
+}
+
+.field-component div {
+  background:#FFF;
+  height:40px;
+  /*width:50px;*/
+  display:block;
+  border: 1px solid #CCC;
+  text-align: center;
+}
+
+.field-component.counting select{
+  color: #91B2E6;
+}
+
+select {
+  text-indent: 10px;
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  -webkit-appearance: none;
+  appearance:none;
+  border: none;
+  outline:none;
+  text-align: center;
+  font-size: 30px;
+  font-family: Helvetica;
+  padding:0px;
+}
+
+option {
+  padding:0px;
+}
+
+#dice {
+  margin-right: 20px;
+}
+#dice td {
+  background:#FFFFE8;
+  color:rgb(173, 173, 173);
+  margin:5px;
+  vertical-align: middle;
+  height:50px;
+  width:50px;
+  display:block;
+  border: 1px solid transparent;
+  text-align: center;
+  font-size: 30px;
+  font-family: Helvetica;
+  line-height: 50px;
+}
+
+#result {
+  margin: 20px auto 0;
+  color: #91B2E6;
+  width:auto;
+
+}
